@@ -1,0 +1,5 @@
+<ul>
+  {% for doc in docs %}
+  <li><a href="{% url 'document' doc.version %}">{{doc.version}}</a></li>
+  {% endfor %}
+</ul>
