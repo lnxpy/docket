@@ -15,7 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from docs import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', views.doc_list, name='doclist'),
+    path('<str:version>/', views.doc, name='document'),
 ]
