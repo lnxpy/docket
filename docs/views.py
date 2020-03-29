@@ -4,10 +4,14 @@ from .models import Documentation
 
 def doc_list(requests):
     docs = Documentation.objects.all()
-    context = {
-    'docs': docs,
-    'last_release': docs[len(docs)-1],
-    }
+    if docs:
+        context = {
+        'docs': docs,
+        'last_release': docs[len(docs)-1],
+        }
+    else:
+        context = {'docs':None}
+
     return render(requests, 'index.html', context=context)
 
 def doc(requests, version):
