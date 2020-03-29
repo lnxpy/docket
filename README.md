@@ -2,10 +2,10 @@
 Easy way to generate some documents by versioning them into the ckeditor environment. Make documents in a second and toggle them into your `Document` indexes.
 
 # Structure
-You can generate lots of documents for your project. docket uses Bootstrap 4 which is so flexible for API generations. Write your scripts, headers, paragraphs, and qutos in the ckeditor and let Bootstrap style them.
+You can generate lots of documents for your project. docket uses Bootstrap 4 which is so flexible for API generations. Write your scripts, headers, paragraphs, and quotas in the ckeditor and let Bootstrap style them.
 
 # Preview
-Here is the list that you would create on the Django Admin Panel(DAP). DAP is availabel on `localhost:8000/admin` by default. You might have choosen a different port address or already changed the DAP path.
+Here is the list that you would create on the Django Admin Panel(DAP). DAP is available on `localhost:8000/admin` by default. You might have chosen a different port address or already changed the DAP path.
 <p align="center">
   <img src="https://github.com/lnxpy/docket/blob/master/src/docslist.png">
 </p>
