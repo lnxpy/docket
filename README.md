@@ -14,5 +14,10 @@ Now, here we have our document viewer which has been designed by Bootstrap. Modi
   <img src="https://github.com/lnxpy/docket/blob/master/src/docs.png">
   </p>
   
+# Setup your Scheme
+You may not prefer the default scheme of docket. Don't concern about it. Make it feels better. You have to be familiar with CSS and design your tags properly. The changes you make, will be overwrititten on the default styles of Bootstrap.
+
+Also use `pygmentify` to beautify your JSON, Script, and Code blocks and make them look better. If you want to set it up, make sure you have already read the [pygmentify document](https://django-pygmentify.readthedocs.io/en/latest/usage.html). 
+
 # Fork
 Fork and feed for free :)
