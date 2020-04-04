@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'yekan';
+  src: local('Yekan'),
+    url('../fonts/Yekan/Yekan.ttf') format("truetype");
+}
+
+body {
+  font-family: yekan, sans-serif;
+}
+
+p {
+  font-size: 20px;
+}
+
+pre {
+  border-radius: 3px;
+  color: whitesmoke;
+  background-color: #002742;
+  font-size: 15px;
+  padding: 10px 5px 10px 15px;
+}
