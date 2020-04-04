@@ -12,10 +12,10 @@ def doc_list(requests):
     else:
         context = {'docs':None}
 
-    return render(requests, 'index.html', context=context)
+    return render(requests, 'docs/index.html', context=context)
 
-def doc(requests, version):
+def doc(requests, lang):
     context = {
-        'document':get_object_or_404(Documentation, version=version)
+        'document':get_object_or_404(Documentation, language=lang)
     }
-    return render(requests, 'document.html', context=context)
+    return render(requests, 'docs/document.html', context=context)
