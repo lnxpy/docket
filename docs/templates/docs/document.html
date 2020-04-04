@@ -1,0 +1,19 @@
+{% extends 'docs/base.html' %}
+
+{% block title %}
+Document - {{document}}
+{% endblock %}
+
+{% block style %}
+h1, h2, h3, h4, h5, h6, p {
+text-align: {{document.alignment}};
+}
+{% endblock %}
+
+{% block content %}
+<div class="container my-3 p-5">
+  <h2>{{document.version}}</h2>
+  <hr><br>
+  {{document.content|safe}}
+</div>
+{% endblock %}
