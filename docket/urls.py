@@ -20,5 +20,5 @@ from docs import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.doc_list, name='doclist'),
-    path('<str:version>/', views.doc, name='document'),
+    path('<str:lang>/', views.doc, name='document'),
 ]
