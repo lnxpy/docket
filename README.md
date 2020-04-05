@@ -7,11 +7,12 @@ You can generate lots of documents for your project. docket uses Bootstrap 4 whi
 # Preview
 Here is the list that you would create on the Django Admin Panel(DAP). DAP is available on `localhost:8000/admin` by default. You might have chosen a different port address or already changed the DAP path.
 <p align="center">
-  <img src="https://github.com/lnxpy/docket/blob/master/src/docslist.png">
+  <img src="https://github.com/lnxpy/docket/blob/master/src/lst.png">
 </p>
 Now, here we have our document viewer which has been designed by Bootstrap. Modify classes, make some CSS codes, and create your own favorite scheme. Here is the default scheme of the Docket.
 <p align="center">
-  <img src="https://github.com/lnxpy/docket/blob/master/src/docs.png">
+  <img src="https://github.com/lnxpy/docket/blob/master/src/en.png">
+  <img src="https://github.com/lnxpy/docket/blob/master/src/pe.png">
   </p>
   
 # Setup your Scheme
