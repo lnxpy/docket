@@ -13,7 +13,7 @@ Last Release Documents
       Versions
     </a>
     {% for doc in docs %}
-    <a href="{% url 'document' doc.language %}" class="list-group-item list-group-item-action" target="_blank">{{doc.version}}</a>
+    <a href="{% url 'document' doc.language %}" class="list-group-item list-group-item-action">{{doc.version}}</a>
     {% endfor %}
   </div>
   {% else %}
